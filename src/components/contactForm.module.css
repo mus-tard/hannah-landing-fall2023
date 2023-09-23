@@ -1,5 +1,7 @@
 .contactFormContainer {
     padding: 8px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .formContainer{
@@ -9,9 +11,17 @@
     gap: 16px;
 }
 
+.sectionIntro{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 8px;
+}
+
 .formContainer p {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .formContainer p label {
@@ -24,12 +34,11 @@ input {
     border-radius: 10px;
     padding: 8px;
     margin: 8px 0;
-    
 }
 
 textarea {
     padding: 8px;
-    height: 96px;
+    height: 48px;
     border-radius: 10px;
     margin: 8px 0;
 }
@@ -52,4 +61,16 @@ button {
     font-family: 'Open Sans';
     font-style: normal;
     font-size: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+    .contactFormContainer {
+        padding: 112px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
 }
