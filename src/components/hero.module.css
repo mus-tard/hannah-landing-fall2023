@@ -1,0 +1,102 @@
+
+.heroContainer {
+    flex:1 1 auto;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.heroText {
+    font-family: "Gilda Display", sans-serif;
+	font-size: 48px;
+    margin-top: -34px;
+    position: relative;
+    line-height: normal;
+    padding: 0 8px;
+    /* flex:1 2 auto; */
+}
+
+.heroChangingText {
+    font-family: 'Open Sans';
+	font-style: italic;
+    color: #4057A3;
+}
+
+.heroButtonContainer{
+    flex:0;
+    padding: 8px;
+    display: flex;
+}
+
+.heroButton{
+    background-color: #4057A3;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.overlay {
+    grid-area: 1/1;
+    position: relative;
+    background: linear-gradient(#00000000 77%, #140B02);
+}
+
+
+
+@media only screen and (min-width: 744px) {
+    .heroText{
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .heroText{
+        font-size: 96px;
+    }
+    .heroButtonContainer{
+        justify-content: flex-end;
+        padding-right: 80px;
+    }
+
+    .heroButton {
+        max-width: 320px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1512px) {
+    .overlay {
+        background: linear-gradient(to right,#00000000 77%, #140B02);
+    }
+
+    .heroTextnButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heroText {
+        margin-top: 0;
+    }
+   
+
+    .heroContainer {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+}
+
