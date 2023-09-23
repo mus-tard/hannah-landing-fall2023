@@ -94,7 +94,7 @@ h2 {
 	font-size: 32px;
 }
 
-p {
+p, input, textarea {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: normal;
@@ -107,16 +107,21 @@ p {
 }
 
 /* Tagbox for Instagram Feed - Start */
-.tb_nc_contant_wrapper, .tb_see_more_btn_wrap, .tb_see_more_btn_wrap, .tb_see_more_btn  { 
-	display: none !important; 
-}
+	.tb_nc_contant_wrapper, .tb_see_more_btn_wrap, .tb_see_more_btn_wrap, .tb_see_more_btn  { 
+		display: none !important; 
+	}
 
-.tb_app_container {
-	overflow-y: hidden;
-}
+	.tb_app_container {
+		overflow-y: hidden;
+	}
 
-.tb_nc_media_wrap {
-	cursor: default;
-}
+	.tb_nc_media_wrap {
+		cursor: default;
+	}
+
+	div[class^="tb_nc_image media_holder"] {
+		border-radius: 10px;
+		background-size: cover !important;
+	}
 
 /* Tagbox for Instagram Feed - End */

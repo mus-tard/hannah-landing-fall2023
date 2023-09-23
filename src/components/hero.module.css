@@ -1,11 +1,25 @@
 
-.heroContainer {
+.headerContainer {
     flex:1 1 auto;
     padding: 16px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 90vh;
     
+    
+}
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+        
+}
+
+.gridImage {
+    flex: 1 2 auto;
+    height: 100px;
 }
 .heroText {
     font-family: "Gilda Display", sans-serif;
@@ -77,6 +91,20 @@
 
 
 @media only screen and (min-width: 1512px) {
+
+    .headerContainer {
+        height: unset;
+    }
+    .heroContainer{
+        flex-direction: row;
+        padding: 24px 0;
+    }
+
+    .gridImage {
+        height: unset;
+        width: 100%;
+    }
+
     .overlay {
         background: linear-gradient(to right,#00000000 77%, #140B02);
     }
@@ -92,11 +120,7 @@
     }
    
 
-    .heroContainer {
-        display: flex;
-        flex-direction: row;
-        
-    }
+   
 
 }
 

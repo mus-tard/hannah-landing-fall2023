@@ -1,17 +1,18 @@
 import * as React from "react" 
-import Logo from "../components/Logo"
+
 import Hero from "../components/Hero"
 import Services from "../components/Services"
 import InstaFeed from "../components/InstaFeed"
+import ContactForm from "../components/ContactForm"
 
 
 const IndexPage = () => {
   return (
     <main>
-      <Logo />
       <Hero />
       <Services /> 
       <InstaFeed /> 
+      <ContactForm />
     </main>
   )
 }

@@ -1,7 +1,7 @@
-	.servicesContainer{
-        max-width: 1024px;
-        margin: 0 auto;
-    }
+.servicesContainer{
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
 .sectionIntro {
     display: flex;

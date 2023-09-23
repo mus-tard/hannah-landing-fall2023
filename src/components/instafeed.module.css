@@ -1,5 +1,10 @@
-.componentContainer {
+.instaFeedContainer {
     max-width: 1024px;
+    margin: 0 auto;
+}
+
+.feedContainer {
+    max-width: 500px;
     margin: 0 auto;
     cursor: default;
 }
@@ -9,4 +14,24 @@
     flex-direction: column;
     gap: 8px;
     padding: 8px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 0;
+}
+
+.social {
+    width: 50px;
+}
+
+@media only screen and (min-width: 800px) {
+    .instaFeedContainer {
+        display: flex;
+        padding: 16px 96px;
+        align-items: center;
+        
+    }
 }
