@@ -1,11 +1,18 @@
 import * as React from 'react'
 import useExternalScripts from "../hooks/useExternalScripts"
-import {componentContainer} from "./instafeed.module.css"
+import {
+    componentContainer,
+    sectionIntro,
+} from "./instafeed.module.css"
 
 const InstaFeed = () => {
     
     return (
         <div>
+            <div className={sectionIntro}>
+                <h2>Follow us!</h2>
+                <p>Join our ever-growing community of home renovation enthusists on Instagram and Facebook!</p>
+            </div>
         <div 
             className={`taggbox ${componentContainer}`}
             

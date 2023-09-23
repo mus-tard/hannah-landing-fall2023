@@ -3,3 +3,10 @@
     margin: 0 auto;
     cursor: default;
 }
+
+.sectionIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}

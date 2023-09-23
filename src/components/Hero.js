@@ -10,6 +10,8 @@ import {
     
 } from "./hero.module.css"
 
+//https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -35,7 +37,7 @@ function debounce(fn, ms) {
         height: window.innerHeight,
         width: window.innerWidth
         })
-        }, 50)
+        }, 25)
 
         window.addEventListener('resize', debouncedHandleResize)
 
@@ -54,22 +56,24 @@ function debounce(fn, ms) {
 
 
     const logoHeightMobile = viewportWidth < 744 ? 100 : 149
-    const textHeightMobile = viewportWidth < 1512 ? 180 : 0
+    const textHeightMobile = 180
     const buttonHeightMobile = 75
     const verticalPadding = 16
     const buffer = viewportWidth < 1024  ? 64 : 128 
 
     const totalDiff = logoHeightMobile + textHeightMobile + buttonHeightMobile + verticalPadding + buffer
 
-    const heroImageHeight = viewportHeight - totalDiff
+    const heroImageHeight = viewportWidth < 1512 ? viewportHeight - totalDiff : "unset"
 
     return (
-        <div className={heroContainer}>
+        <div 
+            className={heroContainer}
+        >
             <div 
                 style={{ 
                     display: "grid",
                     height: heroImageHeight,
-                
+                    minHeight: "50px",
                 }}
                 
             >
