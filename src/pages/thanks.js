@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import Logo from "../components/Logo" 
-import Footer from "../components/Footer" 
 
 const buttonStyles = {
     backgroundColor: "#4057A3",
@@ -42,7 +41,7 @@ const pageStyles = {
     height: "100vh"
 }
 
-export default () => (
+function Thanks () {
     <>
         <main style={pageStyles}>
             <Logo />
@@ -53,4 +52,6 @@ export default () => (
     </>
     
 
-)
+}
+
+export default Thanks

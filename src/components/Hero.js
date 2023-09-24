@@ -1,15 +1,19 @@
 import * as React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import Logo from "../components/Logo"
+import Logo from "./Logo"
+import TypedText from "./TypedText"
 import {
-    
+    field,
     overlay,
     heroText,
     gridImage,
+    heroTextnField,
+    fieldContainer,
+    highlight,
     heroButton,
     heroContainer,
     headerContainer,
-    heroTextnButton,
+    heroContent,
     heroButtonContainer,
     
 } from "./hero.module.css"
@@ -23,6 +27,7 @@ import {
         
     }
 
+  
 
     return (
         <header 
@@ -34,8 +39,6 @@ import {
                     className={gridImage}
                     style={{ 
                         display: "grid",
-                        // height: heroImageHeight || "50%",
-                        // minHeight: "50px",
                     }}
                     
                 >
@@ -52,12 +55,18 @@ import {
                     >
                     </div>
                 </div>
-                <div className={heroTextnButton}>
-                    <div 
-                        className={heroText}
-                    >
-                        
-                        Make your dream a reality today!
+                <div className={heroContent}>
+                    <div className={heroTextnField}>
+                        <div 
+                            className={heroText}
+                        >
+                            
+                            Make it <span className={highlight}>real</span>
+                        </div>
+                        <div className={fieldContainer}>
+                            <TypedText className={field}>How much for my dream kitchen?</TypedText> 
+                        </div>
+                    
                     </div>
                     <div className={heroButtonContainer}>
                         <a href="#quote" className={heroButton}>

@@ -25,16 +25,33 @@
 .heroText {
     font-family: "Gilda Display", sans-serif;
 	font-size: 48px;
-    margin-top: -34px;
+    text-align: center;
     position: relative;
     line-height: normal;
     padding: 0 8px;
 }
 
-.heroChangingText {
+.highlight {
     font-family: 'Open Sans';
 	font-style: italic;
+    font-weight: 900;
     color: #4057A3;
+}
+
+.heroTextnField {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    position: relative;
+}
+
+.field {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    text-align: center;
+    background: rgba(20, 11, 2, 0.76);
+
 }
 
 .heroButtonContainer{
@@ -76,15 +93,34 @@
 
 
 
-@media only screen and (min-width: 744px) {
-    .heroText{
-        padding-left: 100px;
-    }
-}
+
 
 @media only screen and (min-width: 1024px) {
     .heroText{
         font-size: 96px;
+    }
+
+    .heroTextnField {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fieldContainer {
+        display: flex;
+        padding: 0 68px;
+        width: 250px;
+        height: 276px;
+        justify-content: center;
+        align-items: center;
+    }
+    .field {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        font-size: 32px;
+        flex: 1 0 0;
+        align-self: stretch;
     }
     .heroButtonContainer{
         justify-content: flex-end;
@@ -117,7 +153,7 @@
         background: linear-gradient(to right,#00000000 77%, #140B02);
     }
 
-    .heroTextnButton{
+    .heroContent{
         display: flex;
         flex-direction: column;
         justify-content: center;
