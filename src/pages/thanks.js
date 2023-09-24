@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import Logo from "../components/Logo" 
 import Footer from "../components/Footer" 
 
