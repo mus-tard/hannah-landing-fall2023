@@ -19,7 +19,7 @@ function ContactForm() {
                     <li>Email: timothyryanhannah@gmail.com</li>
                 </ul>
             </div>
-            <form className={formContainer} name="contact" method="POST" data-netlify="true">
+            <form className={formContainer} action="/" name="contact" method="POST" data-netlify="true">
             <div className={row}>
                 <p>
                     <label>Your Name: <input autocomplete="name" type="text" name="name" /></label>
