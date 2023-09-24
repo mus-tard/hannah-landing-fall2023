@@ -11,7 +11,7 @@ function ContactForm() {
     return (
         <div className={contactFormContainer}>
             <div className={sectionIntro}>
-                <h2>Contact us</h2>
+                <h2  id="quote">Contact us</h2>
                 <p>Use this form, email, or give us a call if you have any questions.</p>
                 <p>Free Quotes: We will visit your home, complete a preliminary walkthrough, and provide an estimate.</p>
                 <ul>

@@ -25,7 +25,7 @@ import {
 
 
     return (
-        <div 
+        <header 
             className={headerContainer}
         >
             <Logo />
@@ -60,14 +60,14 @@ import {
                         Make your dream a reality today!
                     </div>
                     <div className={heroButtonContainer}>
-                        <button className={heroButton}>
+                        <a href="#quote" className={heroButton}>
                             Request a quote
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
             
-        </div>
+        </header>
     )
 }
 

@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90vh;
+    gap: 16px;
     
     
 }
@@ -28,7 +29,6 @@
     position: relative;
     line-height: normal;
     padding: 0 8px;
-    /* flex:1 2 auto; */
 }
 
 .heroChangingText {
@@ -39,7 +39,7 @@
 
 .heroButtonContainer{
     flex:0;
-    padding: 8px;
+    padding: 16px;
     display: flex;
 }
 
@@ -58,6 +58,13 @@
     font-style: normal;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.heroButton:hover {
+    background-color: #fff;
+    color: #4057A3;
+    transform: scale(1.02);
 }
 
 

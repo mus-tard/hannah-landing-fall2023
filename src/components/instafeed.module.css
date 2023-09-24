@@ -1,6 +1,7 @@
 .instaFeedContainer {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 128px 0;
 }
 
 .feedContainer {
@@ -27,10 +28,16 @@
     width: 50px;
 }
 
+.social:hover {
+    background-color: #4057A3;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
 @media only screen and (min-width: 800px) {
     .instaFeedContainer {
         display: flex;
-        padding: 16px 96px;
+        padding: 256px 96px;
         align-items: center;
         
     }
