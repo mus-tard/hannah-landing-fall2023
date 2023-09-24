@@ -20,7 +20,7 @@ function ContactForm() {
                 </ul>
             </div>
             <form className={formContainer} action="/" name="contact" method="POST" data-netlify="true">
-            <input type="hidden" action="/" name="contact" value="contact" />
+            <input type="hidden" name="contact" value="contact" />
             <div className={row}>
                 <p>
                     <label>Your Name: <input autocomplete="name" type="text" name="name" /></label>
