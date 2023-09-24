@@ -122,9 +122,6 @@ p, input, textarea, ul, li {
 		overflow-y: hidden;
 	}
 
-	.tb_nc_media_wrap {
-		cursor: default;
-	}
 
 	div[class^="tb_nc_image media_holder"] {
 		border-radius: 10px;
