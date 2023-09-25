@@ -7,7 +7,7 @@
     justify-content: center;
     height: 90vh;
     gap: 16px;
-    min-height: 500px;
+    min-height: 500px;;
     
 }
 
@@ -94,7 +94,12 @@
 
 @media (orientation:landscape) {
     .headerContainer {
-        min-height: 800px;
+
+        height: unset;
+    }
+
+    .gridImage {
+        height: 300px;
     }
 }
 
