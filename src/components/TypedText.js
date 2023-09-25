@@ -6,7 +6,6 @@ import {
     
 } from "./hero.module.css"
 
-const strings = ['deck', 'floor', 'window', 'kitchen', 'fence', 'garden']
 
 function TypedText() {
   // Create reference to store the DOM element containing the animation

@@ -42,14 +42,14 @@ const pageStyles = {
 }
 
 function Thanks () {
-    <>
+    return (
         <main style={pageStyles}>
             <Logo />
             <h1 style={headingStyles}>Thank you!</h1>
             <p>We will get back to you as soon as possible.</p>
             <Link style={buttonStyles} to="/">Go back home</Link>
         </main>
-    </>
+    )
     
 
 }
