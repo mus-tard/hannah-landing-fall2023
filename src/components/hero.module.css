@@ -7,7 +7,7 @@
     justify-content: center;
     height: 90vh;
     gap: 16px;
-    
+    min-height: 500px;;
     
 }
 
@@ -101,15 +101,14 @@
     }
 
     .heroTextnField {
-        flex-direction: row;
+        
         justify-content: center;
         align-items: center;
     }
     .fieldContainer {
         display: flex;
         padding: 0 68px;
-        width: 250px;
-        height: 276px;
+        width: 600px;
         justify-content: center;
         align-items: center;
     }
