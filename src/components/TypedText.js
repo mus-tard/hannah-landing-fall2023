@@ -20,7 +20,8 @@ function TypedText() {
         
     ],
       typeSpeed: 75,
-      backSpeed: 75,
+      backSpeed: 30,
+      loop: true,
     });
 
     return () => {
