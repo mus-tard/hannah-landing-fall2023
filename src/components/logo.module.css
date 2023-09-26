@@ -40,7 +40,7 @@
     }
 }
 
-@media only screen and (min-width: 1512px) {
+@media only screen and (min-width: 1512px) and (hover: hover){
     .logoGraphic {
         width: 178px;
     }
