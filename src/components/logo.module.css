@@ -34,11 +34,6 @@
     
 }
 
-@media (hover: none) {
-    .logoGraphic {
-        width: 106px;
-    }
-}
 
 @media only screen and (min-width: 1512px) and (hover: hover){
     .logoGraphic {
