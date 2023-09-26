@@ -34,7 +34,7 @@
     
 }
 
-@media (hover: hover) {
+@media (hover: none) {
     .logoGraphic {
         width: 106px;
     }
