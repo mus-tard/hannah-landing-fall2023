@@ -4,7 +4,6 @@ import { useEffect } from 'react';
   useEffect(() => {
     const head = document.querySelector("head");
     const script = document.createElement("script");
-    console.log(url)
     script.setAttribute("src", url);
     head.appendChild(script);
 
