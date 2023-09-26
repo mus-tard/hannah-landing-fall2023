@@ -61,7 +61,7 @@ import {
                             className={heroText}
                         >
                             
-                            Make it <span className={highlight}>real</span>
+                            1Make it <span className={highlight}>real</span>
                         </div>
                         <div className={fieldContainer}>
                             <TypedText className={field}>How much for my dream kitchen?</TypedText> 
