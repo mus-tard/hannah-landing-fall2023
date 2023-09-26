@@ -4,27 +4,27 @@ export const onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
     <link
       rel="preload"
-      href="static/fonts/Microgramma-D-Extended-Bold.otf"
+      href="/fonts/Microgramma-D-Extended-Bold.otf"
       as="font"
     />,
     <link
       rel="preload"
-      href="static/fonts/AlegreyaSC-Italic.ttf"
+      href="/fonts/AlegreyaSC-Italic.ttf"
       as="font"
     />,
     <link
       rel="preload"
-      href="static/fonts/GildaDisplay-Regular.ttf"
+      href="/fonts/GildaDisplay-Regular.ttf"
       as="font"
     />,
     <link
       rel="preload"
-      href="static/fonts/OpenSans-BoldItalic.ttf"
+      href="/fonts/OpenSans-BoldItalic.ttf"
       as="font"
     />,
     <link
       rel="preload"
-      href="static/fonts/OpenSans-Regular.ttf"
+      href="/fonts/OpenSans-Regular.ttf"
       as="font"
     />,
   ])
