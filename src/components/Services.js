@@ -37,8 +37,8 @@ function Services() {
         <section className={servicesContainer}>
            
                 <div className={sectionIntro}>
-                <h2>Services</h2>
-                <p>Our services include interior and exterior general contracting for commercial and residential projects.</p>
+                <h2>Our Services</h2>
+                <p>Residential and commercial interior/exterior general contracting of any size.</p>
             </div>
             
             
