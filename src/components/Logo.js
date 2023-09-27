@@ -22,7 +22,7 @@ function Logo() {
                 className={logoGraphic}
             />
             <div className={logoText}>
-                <h1 className={companyName}>VANTA <br /> CONSTRUCTION</h1>
+                <h1 className={companyName}>VANTA <br /> CONSTRUCTION <br /> LIMITED</h1>
                 <div className={slogan}>Quality Comes Standard</div>
             </div>
         </div>
