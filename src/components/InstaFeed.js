@@ -20,7 +20,7 @@ const InstaFeed = () => {
                 <h2>Follow us!</h2>
                 <p>Join our ever-growing community of home renovation enthusists on Instagram and Facebook!</p>
                 <div className={socialIcons}>
-                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/cuttingedgegeneralcontracting/">
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/vantaconstruction/">
                         <StaticImage
                             alt="The Instagram logo."
                             src="../images/Instagram_Glyph_White.svg"
@@ -29,7 +29,7 @@ const InstaFeed = () => {
 
                         />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100085907546394">
+                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61554693466954">
                         <StaticImage
                             alt="The Facebook logo."
                             src="../images/f_logo_RGB-White_512.png"
